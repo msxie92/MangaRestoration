@@ -1,5 +1,5 @@
 # Exploiting Aliasing for Manga Restoration
-### [CVPR Paper](To appear) | [Arxiv](https://arxiv.org/abs/2105.06830) | [Project Website](To appear) | [BibTex](#citation) 
+### [CVPR Paper](To appear) | [Arxiv](https://arxiv.org/abs/2105.06830) | [Project Website](http://www.cse.cuhk.edu.hk/~ttwong/papers/mangarestore/mangarestore.html) | [BibTex](#citation) 
 
 <!-- ------------------------------------------------------------------------------ -->
 ## Introduction 
