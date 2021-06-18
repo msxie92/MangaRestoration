@@ -1,5 +1,5 @@
 # Exploiting Aliasing for Manga Restoration
-### [CVPR Paper](To appear) | [Arxiv](https://arxiv.org/abs/2105.06830) | [Project Website](http://www.cse.cuhk.edu.hk/~ttwong/papers/mangarestore/mangarestore.html) | [BibTex](#citation) 
+### [CVPR Paper](https://openaccess.thecvf.com/content/CVPR2021/html/Xie_Exploiting_Aliasing_for_Manga_Restoration_CVPR_2021_paper.html) | [Arxiv](https://arxiv.org/abs/2105.06830) | [Project Website](http://www.cse.cuhk.edu.hk/~ttwong/papers/mangarestore/mangarestore.html) | [BibTex](#citation) 
 
 <!-- ------------------------------------------------------------------------------ -->
 ## Introduction 
@@ -39,8 +39,9 @@ If any part of our paper and code is helpful to your work, please generously cit
 @inproceedings{xie2021exploiting,
   author = {Minshan Xie and Menghan Xia and Tien-Tsin Wong},
   title = {Exploiting Aliasing for Manga Restoration},
-  booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
-  year = {2021}
+  booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition},
+  year = {2021},
+  pages = {13405--13414}
 }
 ```
 
