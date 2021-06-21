@@ -29,12 +29,16 @@ Download the models below and put it under `release_model/`.
     ```
 2. Testing:
     * Place your test images under [datazip/manga1/test](datazip/manga1/test).
+
     * Prepare images filelist using [flist.py](scripts/flist.py).
+    * Run `python scripts/flist.py --path path_to_test_set --output path_to_test_flist `. 
+    * For example, `python scripts/flist.py --path datazip/manga1/test --output flist/manga1/test.flist `
+
     * Modify [manga.json](configs/manga.json) to set path to data.
     * Run `python testreal.py -c [config_file] -n [model_name] -s [image_size] `. 
     * For example, `python testreal.py -c configs/manga.json -n resattencv -s 256 `
-    * You can also use `python testreal.py -c [config_file] -n [model_name] -s [image_size] -sl [scale]` to specify the scale factor. 
     * Note that the Convex interpolation refinement requires large GPU memory, you can enable it by setting (bilinear=False) in MangaRestorator to restore images. Defaultly, we set bilinear=True.
+    * You can also use `python testreal.py -c [config_file] -n [model_name] -s [image_size] -sl [scale]` to specify the scale factor. 
 
 <!-- ------------------------------------------------------------------- -->
 ## Citation
