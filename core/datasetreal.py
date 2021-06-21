@@ -22,9 +22,7 @@ class Dataset(torch.utils.data.Dataset):
     self.level = level
     # self.w, self.h = 512,512
     self.w, self.h = data_args['w'], data_args['h']
-    self.data = [os.path.join(data_args['zip_root'], data_args['name2'], i) 
-      for i in np.genfromtxt(os.path.join(data_args['flist_root'], data_args['name2'], split+'.flist'), dtype=np.str, encoding='utf-8',delimiter="\n")]
-      # for i in np.genfromtxt(os.path.join(data_args['flist_root'], data_args['name'], split+'4.flist'), dtype=np.str, encoding='utf-8',delimiter="\n")]
+    self.data = [i for i in np.genfromtxt(os.path.join(data_args['flist_root'], data_args['name2'], split+'.flist'), dtype=np.str, encoding='utf-8',delimiter="\n")]
     self.data.sort()
     
     if split == 'train':
