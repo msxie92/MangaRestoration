@@ -23,6 +23,10 @@ Download the models below and put it under `release_model/`.
 1. Requirements:
     * Install python3.6
     * Install [pytorch](https://pytorch.org/) (tested on Release 1.1.0)
+    * Install python requirements:
+    ```bash
+       pip install -r requirements.txt
+    ```
 2. Testing:
     * Place your test images under [datazip/manga1/test](datazip/manga1/test).
     * Prepare images filelist using [flist.py](scripts/flist.py).
