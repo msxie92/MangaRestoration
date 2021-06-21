@@ -5,34 +5,20 @@ from torch.autograd import Variable
 
 import torch.nn as nn
 import torch.nn.functional as F
-import torch.nn.init as init
-import torch.utils.model_zoo as model_zoo
-from torchvision import models
 import torch.multiprocessing as mp
-from torchvision import transforms
 from torch.utils.data import DataLoader
-from torch.nn.parallel import DistributedDataParallel as DDP
-from torchvision.utils import make_grid, save_image
 
-import cv2
-import matplotlib.pyplot as plt
 from PIL import Image
 import numpy as np
 import math
-import time
 import os
 import argparse
-import copy
 import importlib
 import datetime
-import random
-import sys
 import json
-import glob
 
 ### My libs
-from core.utils import set_device, postprocess, ZipReader, set_seed
-from core.utils import postprocess
+from core.utils import set_device, postprocess, set_seed
 from core.datasetreal import Dataset
 import warnings
 warnings.filterwarnings("ignore")
