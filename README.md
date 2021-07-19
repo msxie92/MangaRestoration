@@ -40,6 +40,9 @@ Download the models below and put it under `release_model/`.
     * Note that the Convex interpolation refinement requires large GPU memory, you can enable it by setting (bilinear=False) in MangaRestorator to restore images. Defaultly, we set bilinear=True.
     * You can also use `python testreal.py -c [config_file] -n [model_name] -s [image_size] -sl [scale]` to specify the scale factor. 
 
+## Copyright and License
+You are granted with the [LICENSE](./LICENSE) for both academic and commercial usages.
+
 <!-- ------------------------------------------------------------------- -->
 ## Citation
 If any part of our paper and code is helpful to your work, please generously cite with:
